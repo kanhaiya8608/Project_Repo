@@ -45,6 +45,7 @@ const Page = () => {
               isDarkMode={darkMode}
               size={60}
               speed={1.2}
+              className="p-2"
             />
           </div>
           <ProjectList />
