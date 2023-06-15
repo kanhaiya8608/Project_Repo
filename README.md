@@ -7,7 +7,7 @@ https://kanhaiya-five.vercel.app/
 
 ## Screenshots
 
- <img alt="Logo" src="https://github.com/kanhaiya8608/CL1.5/blob/main/Screenshot/papp.png?raw=true" width="100" />
+ <img alt="Logo" src="https://github.com/kanhaiya8608/Project_repo/blob/main/Screenshots/ppi.png?raw=true" width="200" />
 
 
 ## Tech Stack
