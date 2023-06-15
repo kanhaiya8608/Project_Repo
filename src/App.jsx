@@ -38,7 +38,7 @@ const Page = () => {
               <h1 className={`mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white ${darkMode ? "dark-mode-heading" : "light-mode-heading"}`}>
                 Projects
               </h1>
-              <p className="my-3 pb-3 lg:text-lg  font-normal text-gray-500 md:w-0.5 dark:text-gray-400">Transforming Ideas into Experiences</p>
+              <p className="my-3 pb-3 lg:text-lg  font-normal text-gray-500  dark:text-gray-400">Transforming Ideas into Experiences</p>
             </div>
             <DarkModeToggle
               onChange={setDarkMode}
