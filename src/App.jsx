@@ -32,20 +32,20 @@ const Page = () => {
           <PacmanLoader color={loaderColor} loading={loading} size={20} />
         </div>
       ) : (
-        <div className={`min-h-screen p-12 ${darkMode ? "dark" : "light"}`}>
-          <div className="flex justify-between">
+        <div className={`min-h-screen p-4 md:p-8 lg:p-12 ${darkMode ? "dark" : "light"}`}>
+          <div className="flex justify-between overflow-visible ">
             <div>
               <h1 className={`mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white ${darkMode ? "dark-mode-heading" : "light-mode-heading"}`}>
                 Projects
               </h1>
-              <p className="my-3 pb-3 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Transforming Ideas into Experiences</p>
+              <p className="my-3 pb-3 lg:text-lg  font-normal text-gray-500 md:w-0.5 dark:text-gray-400">Transforming Ideas into Experiences</p>
             </div>
             <DarkModeToggle
               onChange={setDarkMode}
               isDarkMode={darkMode}
               size={60}
               speed={1.2}
-              className="p-2"
+              className=" pr-20"
             />
           </div>
           <ProjectList />
