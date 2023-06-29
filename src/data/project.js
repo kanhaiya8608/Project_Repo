@@ -16,7 +16,7 @@ const projects = [
      {
         id: 2,
         name: "Kanban Dashboard",
-        image: "Kanban",
+        image: "kanban",
         technologies: [
             { name: "React", image: "react" },
             { name: "javascript", image: "javascript" }, { name: "HTML", image: "html" },
