@@ -13,8 +13,22 @@ const projects = [
         repoLink: "https://github.com/kanhaiya8608/CL1.5",
         liveLink: "https://kanhaiya-five.vercel.app/",
     },
-    {
+     {
         id: 2,
+        name: "Kanban Dashboard",
+        image: "Kanban",
+        technologies: [
+            { name: "React", image: "react" },
+            { name: "javascript", image: "javascript" }, { name: "HTML", image: "html" },
+
+            { name: "TailwindCSS", image: "tailwind" }
+        ],
+        description: "The React Kanban project description utilizing react-beautiful-dnd is a powerful and intuitive project management tool with drag-and-drop functionality, making task organization effortless and efficient.",
+        repoLink: "https://github.com/kanhaiya8608/Mercor",
+        liveLink: "https://mercor-rho.vercel.app/",
+    },
+    {
+        id: 3,
         name: "React Quiz Game",
         image: "reactquiz",
         technologies: [
@@ -28,7 +42,7 @@ const projects = [
         liveLink: "https://merchify-assess.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         name: "KMDB",
         image: "kmdb",
         technologies: [
@@ -43,7 +57,7 @@ const projects = [
         liveLink: "https://kmdb-cx58.onrender.com/",
     },
     {
-        id: 4,
+        id: 5,
         name: "Vertocity-Learn",
         image: "vertocity",
         technologies: [
@@ -59,7 +73,7 @@ const projects = [
         liveLink: "https://vertocity.in",
     },
     {
-        id: 5,
+        id: 6,
         name: "Hulu 2.0",
         image: "hulu",
         technologies: [
@@ -74,7 +88,7 @@ const projects = [
         liveLink: "https://hulu-clone-2-0.vercel.app/",
     },
     {
-        id: 6,
+        id: 7,
         name: "ARK Enterprise",
         image: "ark",
         technologies: [
@@ -91,7 +105,7 @@ const projects = [
         liveLink: "https://laravel-project-ark-enterprise-nuth-bwi08sj59-kanhaiya8608.vercel.app/",
     },
     {
-        id: 7,
+        id: 8,
         name: "Password gen",
         image: "pass",
         technologies: [
@@ -105,7 +119,7 @@ const projects = [
         liveLink: "https://passgen24.netlify.app/",
     },
     {
-        id: 8,
+        id: 9,
         name: "Drum Kit",
         image: "drum",
         technologies: [
@@ -119,7 +133,7 @@ const projects = [
         liveLink: "https://drumo2.netlify.app/",
     },
     {
-        id: 9,
+        id: 10,
         name: "Simon Game",
         image: "simon",
         technologies: [
@@ -133,7 +147,7 @@ const projects = [
         liveLink: "https://simongame003.netlify.app/",
     },
     {
-        id: 10,
+        id: 11,
         name: "Kanhaiya-Portfolio",
         image: "kanhaiyap",
         technologies: [
@@ -145,7 +159,7 @@ const projects = [
         liveLink: "https://kanhaiyafort.netlify.app/",
     },
     {
-        id: 11,
+        id: 12,
         name: "Tin dog",
         image: "tindog",
         technologies: [
@@ -159,7 +173,7 @@ const projects = [
         liveLink: "https://tindog82.netlify.app/",
     },
     {
-        id: 12,
+        id: 13,
         name: "The Beast website",
         image: "beast",
         technologies: [
