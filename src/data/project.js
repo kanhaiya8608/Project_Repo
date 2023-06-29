@@ -23,7 +23,7 @@ const projects = [
 
             { name: "TailwindCSS", image: "tailwind" }
         ],
-        description: "The React Kanban project description utilizing react-beautiful-dnd is a powerful and intuitive project management tool with drag-and-drop functionality, making task organization effortless and efficient.",
+        description: "React Kanban with react-beautiful-dnd: A powerful and intuitive project management tool with drag-and-drop functionality for effortless task organization.",
         repoLink: "https://github.com/kanhaiya8608/Mercor",
         liveLink: "https://mercor-rho.vercel.app/",
     },
